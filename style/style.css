@@ -3,12 +3,13 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3a3d3b;
 }
 
 #navbar {
-    background-color: #FFFFFF;
-    align-self: center;
-    justify-content: center;
+    background-color:  #849698;
+    opacity: 0.5;
+    justify-content: end;
 }
 
 /* #search {
@@ -17,13 +18,15 @@ body {
 } */
 
 .card {
-    box-shadow: 0px, 5px, 10px, 0px #000000;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px, 5px, 10px, 0px #3a3d3b;
     transition: 0.2s;
     border-radius: 3px;
 }
 
 .card:hover {
-    box-shadow: 0px, 8px, 13px, 0px, #000000;
+    box-shadow: 0px, 8px, 13px, 0px, #3a3d3b;
 }
 
 
